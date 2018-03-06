@@ -61,6 +61,7 @@ class complex_numbers:
     def abs(self ):
         return math.sqrt(self.real**2 + self.imag**2)
     
+    # To get argument is tan^-1(y/x) in degrees
     def argument(self):
         return math.degrees( math.atan ( self.imag/self.real))
 
